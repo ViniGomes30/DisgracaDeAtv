@@ -1,3 +1,8 @@
+/*
+Diego Estevão Lopes de Queiroz - 10419038
+Ricardo Andre Lopes Ikeda - 10390256
+Vinicius Gutierrez Gomes - 10425609
+*/
 class Vetor {
     String[ ] A; // armazena os elementos do vetor
     int capacity; // capacidade do vetor - length
