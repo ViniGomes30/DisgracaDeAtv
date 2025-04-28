@@ -13,7 +13,7 @@ public class Queue extends Vetor {
 
     public void enqueue(String n) throws Exception {
         // Enfileira, caso a fila não esteja cheia, o elemento n
-        add(n);        
+        add(size, n);        
     }
 
     public void dequeue() throws Exception {
