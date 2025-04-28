@@ -7,8 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Queue jogadores = new Queue(10);
 
-        System.out.println("Bem-vindos ao desafio Chute a Gol!");
-        System.out.println("Digite o nome dos 10 jogadores:");
+        System.out.println("Chute a gol - insira o nome dos 10 jogadores:");
 
         for (int i = 0; i < 10; i++) {
             System.out.printf("Jogador %d: ", i + 1);
