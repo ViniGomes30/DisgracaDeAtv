@@ -1,4 +1,3 @@
-package projfila;
 
 public class Queue extends Vetor {
 
@@ -7,14 +6,14 @@ public class Queue extends Vetor {
         super(capacity);
     }
 
-    public int size() {
+    public int size(int qtde) {
         // Devolve o número de elementos da fila
         return qtde;
     }
 
     public void enqueue(String n) throws Exception {
         // Enfileira, caso a fila não esteja cheia, o elemento n
-        add(qtde,n);        
+        add(n);        
     }
 
     public void dequeue() throws Exception {
