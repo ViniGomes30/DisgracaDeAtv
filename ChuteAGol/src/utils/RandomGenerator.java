@@ -3,17 +3,17 @@ import java.util.Random;
 public class RandomGenerator {
     private static final Random random = new Random();
 
-    public static String generateOutcome() {
-        int outcome = random.nextInt(3); // 0: miss, 1: save, 2: goal
-        switch (outcome) {
+    public static String getOutcome() {
+        int result = random.nextInt(3); // 0, 1, or 2
+        switch (result) {
             case 0:
-                return "miss";
+                return "Missed";
             case 1:
-                return "save";
+                return "Save";
             case 2:
-                return "goal";
+                return "Goal";
             default:
-                return "unknown"; // This should never happen
+                return "Unknown";
         }
     }
 }
