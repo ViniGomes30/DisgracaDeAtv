@@ -1,5 +1,3 @@
-import java.awt.geom.Ellipse2D;
-
 class Vetor {
     String[ ] A; // armazena os elementos do vetor
     int capacity; // capacidade do vetor - length
